@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+
+#header {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2) ;
+    /* overflow: hidden; */
+   
+}
+main {
+    margin-top: 9rem;
+}
+
+#logo {
+    float: left;
+    
+}
+
+#nav-bar {
+    float: right;
+}
+
+#nav-bar ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav-bar ul li {
+    float: left;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(0,32,96);
+}
+
+.nav-link:hover {
+    background-color: #eee;
+    color: blue;
+    
+}
+
+#form-section {
+    
+    display: block;
+    text-align: center;
+    margin: 130px;
+    padding: 2rem;
+    background-color: rgba(190, 190, 190, 0);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.8);
+}
+
+#form h1 {
+    color: rgba(1, 29, 83, 0.9);
+    font-size: 3rem;
+}
+
+#form input {
+    display: block;
+    padding: 0.4rem 0.8rem;
+    margin: 15px auto;
+    
+}
+
+#form input[type="submit"] {
+    padding: 0.5rem 1.3rem;
+}
+
+#email {
+    width: 270px;
+    border-radius: 4px;
+    border: 1.9px solid rgb(7,122,233);
+    
+    
+}
+
+#submit, #btn {
+    background-color: rgba(1, 29, 83, 0.9);
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+#submit:hover, #btn:hover {
+    background-color: rgba(7,122,233, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#form h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 130px;
+    /* padding: 2rem; */
+    border-radius: 8px;
+    background-color: rgba(190, 190, 190, 0);
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.8);
+}
+
+#video {
+    margin-bottom: 1rem;
+}
+
+#media-title {
+    width: 100%;
+    color: rgba(255,255,255, 1);
+    font-size: 3.3rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(0,32,96, 0.9);
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1, 30, 88, 0.8);
+    color: white;
+}
+
+footer ul {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+footer ul li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: yellow;
+}
+
+#product {
+    background-color: rgba(255,255,255, 0.6);
+    margin: 70px 130px 70px 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.8);
+    
+}
+
+.product-item {
+    margin: 15px;
+    max-width: 25%;
+    box-shadow: 2px 4px 8px  rgba(0,0,0,0.8);
+    border-radius: 8px;
+    
+}
+
+.product-item:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#product-title, #contact-title {
+    display: block;
+    width: 100%;
+    color: rgba(255,255,255, 1);
+    font-size: 2.2rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(0,32,96, 0.9);
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+
+#contact-title {
+    margin-bottom: 1.8rem;
+}
+
+#contact {
+    background-color: rgba(255,255,255, 0.6);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.8);
+    margin: 0 130px 130px 130px;
+}
+
+#contact-form {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px 50px 50px 50px;
+    /* background-color: rgba(255,255,255, 0.6); */
+    background-color: rgba(190, 190, 190, 0.2);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.8);
+}
+
+#contact-form label, #contact-form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+}
+
+#contact-form label {
+    font-size: 1rem;
+    color: rgba(1, 29, 83, 1);
+    font-weight: bolder;
+}
+
+#contact-form input {
+    margin-bottom: 0.5rem;
+}
+
+#contact-form input, textarea {
+    border: 1.9px solid rgb(7,122,233);
+    border-radius: 4px;
+}
+
+#btn {
+    margin-top: 1rem;
+}
+
+#form-bottom-space {
+    height: 2rem;
+}
+
+
+
