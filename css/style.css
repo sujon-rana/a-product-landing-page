@@ -192,7 +192,7 @@ footer ul li a:hover {
     
 }
 
-.product-item {
+.product-item, #expert-img {
     margin: 15px;
     max-width: 25%;
     box-shadow: 2px 4px 8px  rgba(0,0,0,0.8);
@@ -206,7 +206,7 @@ footer ul li a:hover {
     cursor: pointer;
 }
 
-#product-title, #contact-title {
+#product-title, #contact-title, #expert-title  {
     display: block;
     width: 100%;
     color: rgba(255,255,255, 1);
@@ -218,7 +218,7 @@ footer ul li a:hover {
     margin-bottom: 3rem;
 }
 
-#contact-title {
+#contact-title, #expert {
     margin-bottom: 1.8rem;
 }
 
@@ -234,7 +234,6 @@ footer ul li a:hover {
     max-width: 500px;
     margin: auto;
     padding: 30px 50px 50px 50px;
-    /* background-color: rgba(255,255,255, 0.6); */
     background-color: rgba(190, 190, 190, 0.2);
     border-radius: 8px;
     box-shadow: 2px 4px 8px rgba(0,0,0,0.8);
@@ -268,6 +267,55 @@ footer ul li a:hover {
 #form-bottom-space {
     height: 2rem;
 }
+
+#expert {
+    display: block;
+    text-align: center;
+}
+
+#expert-title {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#expert-details {
+    background-color: rgba(255,255,255, 0.3);
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+
+}
+
+#expert-details:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255, 1);
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.6);
+}
+
+#expert-details-bottom-space {
+    height: 2rem;
+}
+
+#expert-img {
+    max-width: 160px;
+    border-radius: 45%;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.6);
+    margin-bottom: 1rem;
+}
+
+#expert-name {
+    font-size: larger;
+    font-weight: bolder;
+    color: rgba(0,32,96, 1);;
+    margin-bottom: 1rem;
+}
+
+#expert-info {
+    padding: 0.3rem 1.5rem 1.5rem 1.5rem;
+}
+
 
 
 
